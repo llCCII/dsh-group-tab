@@ -1,5 +1,10 @@
 # dsh-group-tab — 工作群
 
+[![npm](https://img.shields.io/npm/v/dsh-group-tab?color=cb3837&label=npm)](https://www.npmjs.com/package/dsh-group-tab)
+[![ci](https://github.com/llCCII/dsh-group-tab/actions/workflows/ci.yml/badge.svg)](https://github.com/llCCII/dsh-group-tab/actions/workflows/ci.yml)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![DSH](https://img.shields.io/badge/DSH-plugin-4d8dff)](https://github.com/deepseek-ai/deepseek-harness)
+
 给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）右侧栏加一个 tab：**谁在干活、每个人现在做到哪、大概还要多久**，用群聊的形态实时呈现，而不是一份静态日志。
 
 ![工作群，深色](https://cdn.jsdelivr.net/gh/llCCII/dsh-group-tab@main/preview/workgroup-dark.png)

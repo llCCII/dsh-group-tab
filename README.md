@@ -1,5 +1,10 @@
 # dsh-group-tab — Workgroup
 
+[![npm](https://img.shields.io/npm/v/dsh-group-tab?color=cb3837&label=npm)](https://www.npmjs.com/package/dsh-group-tab)
+[![ci](https://github.com/llCCII/dsh-group-tab/actions/workflows/ci.yml/badge.svg)](https://github.com/llCCII/dsh-group-tab/actions/workflows/ci.yml)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![DSH](https://img.shields.io/badge/DSH-plugin-4d8dff)](https://github.com/deepseek-ai/deepseek-harness)
+
 A right-sidebar tab for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH) that shows **who is working right now, what each agent is doing, and how long the rest will probably take** — as a live group chat, not a static log.
 
 ![Workgroup, dark](https://cdn.jsdelivr.net/gh/llCCII/dsh-group-tab@main/preview/workgroup-dark.png)
