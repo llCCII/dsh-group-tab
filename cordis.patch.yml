@@ -1,0 +1,4 @@
+# Mounts the 工作群 sidebar tab (host route + client tab).
+- insert:
+    - id: group-tab
+      name: 'dsh-group-tab'

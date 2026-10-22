@@ -1,0 +1,59 @@
+{
+  "name": "dsh-group-tab",
+  "version": "0.3.0",
+  "description": "Workgroup — a right-sidebar tab that shows who is working right now, what each member is doing and how long is left, as a live group chat. Registers as a dsh-better-sidebar tab.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js"
+  },
+  "files": [
+    "lib",
+    "preview",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh-better-sidebar",
+    "sidebar-tab",
+    "subagents",
+    "agent-monitoring",
+    "live-activity"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llCCII/dsh-group-tab.git"
+  },
+  "homepage": "https://github.com/llCCII/dsh-group-tab#readme",
+  "bugs": {
+    "url": "https://github.com/llCCII/dsh-group-tab/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": ["timer"]
+    }
+  },
+  "peerDependencies": {
+    "dsh-better-sidebar": ">=0.28.0"
+  },
+  "scripts": {
+    "test": "node test/render-check.mjs && node test/i18n-check.mjs && node test/keys-check.mjs"
+  },
+  "license": "MIT"
+}
