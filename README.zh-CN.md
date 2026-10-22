@@ -2,7 +2,7 @@
 
 给 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（DSH）右侧栏加一个 tab：**谁在干活、每个人现在做到哪、大概还要多久**，用群聊的形态实时呈现，而不是一份静态日志。
 
-![工作群，深色](preview/workgroup-dark.png)
+![工作群，深色](https://cdn.jsdelivr.net/gh/llCCII/dsh-group-tab@main/preview/workgroup-dark.png)
 
 它注册在 [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) 上（那个插件对外提供 tab 注册点，第三方 tab 都走它）。
 

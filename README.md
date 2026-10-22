@@ -2,7 +2,7 @@
 
 A right-sidebar tab for [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (DSH) that shows **who is working right now, what each agent is doing, and how long the rest will probably take** — as a live group chat, not a static log.
 
-![Workgroup, dark](preview/workgroup-dark.png)
+![Workgroup, dark](https://cdn.jsdelivr.net/gh/llCCII/dsh-group-tab@main/preview/workgroup-dark.png)
 
 Registered as a tab of [dsh-better-sidebar](https://github.com/omdsh-dev/DSH-better-sidebar) (the sidebar plugin that exposes the tab registry other plugins register into).
 
