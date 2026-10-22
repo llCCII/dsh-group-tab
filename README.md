@@ -23,7 +23,13 @@ This tab answers it in one place:
 
 ```sh
 dsh plugin --profile web add dsh-better-sidebar   # peer: the tab host
-dsh plugin --profile web add dsh-group-tab
+```
+
+Then this plugin, either from npm (once published) or straight from GitHub:
+
+```sh
+dsh plugin --profile web add dsh-group-tab                              # npm
+dsh plugin --profile web add github:llCCII/dsh-group-tab                # GitHub, no npm needed
 ```
 
 Then open the right sidebar and pick **Workgroup** from the `＋` menu (it sits next to Tasks). It opens itself once per page load for the active session, and once per session as soon as delegated work starts; close it and it stops doing that for the rest of the page.

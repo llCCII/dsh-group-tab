@@ -23,7 +23,13 @@
 
 ```sh
 dsh plugin --profile web add dsh-better-sidebar   # 必需：tab 宿主
-dsh plugin --profile web add dsh-group-tab
+```
+
+再装本插件，npm 或直接从 GitHub 二选一：
+
+```sh
+dsh plugin --profile web add dsh-group-tab                              # npm（发布后）
+dsh plugin --profile web add github:llCCII/dsh-group-tab                # 直接走 GitHub，不需要 npm
 ```
 
 然后右侧栏 `＋` 菜单里选 **工作群**（和「任务管理」并列）。每次页面加载会在当前会话自动打开一次；一旦有派活，会按会话自动打开一次；你手动关掉后本页不再抢开（手动再打开即恢复）。
